@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:opsz,wght@6..12,700&family=Open+Sans:wght@500&family=Raleway:wght@700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 1440px;
+   
+    /* padding: 266px 30px 35px 987px; */
+    justify-content: flex-end;
+    align-items: center;
+    background: white;
+    color: var(--user-message-text, #FFF);
+
+/* chat/customer-body */
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 21px */
+}
+.chatScreen {
+    display: flex;
+    width:423px;
+    height: 723px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 18px;
+    background-color: #ebebeb;
+    box-shadow: 5px 14px 80px 0px rgba(26, 26, 26, 0.12), 10px 10px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+.chatHead{
+    width: 423px;
+    height: 81px;
+    background-color: #3047ec;
+    border-radius: 18px 18px 0 0;
+    align-items: center;
+   }
+.chatHead img{
+    border-radius:18px 18px 0 0 ;
+}
+.chatBody{
+    width: 423px;
+height: 481px;
+background-color:white;
+position: relative;
+border: 5px soild black;
+}
+.chatBody .conversations{
+    width: 383px;
+    height: 495px;
+    background-color:transparent;
+    margin: 20px;
+    position: absolute;
+    bottom: -20px;
+    
+}
+
+.chatReplies{
+    width: 423px;
+    height: 81px;
+    background-color: white;
+    border-radius: 0 0 18px 18px;
+    justify-content: center;
+    border-top: 2px solid #b1b1b3;
+
+}
+form{
+background-color: white;
+/* display: flex;
+justify-content: space-between; */
+margin: 20px;
+
+}
+form .reply_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+form .reply_input input{
+ border-color: transparent;
+ height: 30px;
+}
+.scroll_section{
+    width: 423px;
+height: 80px;
+background-color: #ebebeb;
+position: relative;
+}
+.scroll_section img{
+position: absolute;
+right: -30px;
+top: -10px;
+}
