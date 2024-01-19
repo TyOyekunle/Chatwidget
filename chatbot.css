@@ -11,7 +11,8 @@ body {
     display: flex;
     width: 1440px;
    
-    /* padding: 266px 30px 35px 987px; */
+     padding:  30px ;   
+    
     justify-content: flex-end;
     align-items: center;
     background: white;
@@ -94,8 +95,12 @@ height: 80px;
 background-color: #ebebeb;
 position: relative;
 }
+
 .scroll_section img{
 position: absolute;
 right: -30px;
 top: -10px;
+}
+.scroll_section img:hover{
+    filter: invert(10);
 }
